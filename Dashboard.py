@@ -797,7 +797,10 @@ def update_qualifying_vs_race(selected_year, selected_drivers):
 
     return fig
 
-if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=False, port=9923)
 
+# Get the port from environment variable or default to 9923
+port = int(os.environ.get("PORT", 9923))
 
+# Run the app on the specified port
+if __name__ == "__main__":
+    app.run_server(debug=True, use_reloader=False, port=port, host='0.0.0.0')
