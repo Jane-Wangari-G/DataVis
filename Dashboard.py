@@ -798,5 +798,4 @@ def update_qualifying_vs_race(selected_year, selected_drivers):
     return fig
 
 if __name__ == '__main__':
-    #app.run_server(debug=True, use_reloader=False, port=9923)
-    app.run_server(host='0.0.0.0', port=80, debug=True)
+    app.run_server(debug=True, use_reloader=False, port=9923)
