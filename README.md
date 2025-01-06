@@ -1,3 +1,5 @@
+Main File: Dashboard.py
+
 F1 Dashboard
 An interactive Formula 1 Dashboard built using Python, Dash, Plotly, and Dash Bootstrap Components. The app provides an engaging way to explore historical and current F1 data, including drivers, constructors, circuits, lap times, and more. The dashboard integrates various visualizations, such as bar charts, scatter plots, sunburst charts, heatmaps, and geospatial maps.
 
