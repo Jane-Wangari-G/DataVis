@@ -799,3 +799,5 @@ def update_qualifying_vs_race(selected_year, selected_drivers):
 
 if __name__ == '__main__':
     app.run_server(debug=True, use_reloader=False, port=9923)
+
+
