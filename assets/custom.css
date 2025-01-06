@@ -1,0 +1,71 @@
+/* Set a base font for the entire app */
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #121212; /* Keep a dark background consistent with plotly_dark and Cyborg theme */
+    color: #ffffff; /* White text for contrast */
+}
+
+/* Adjust margins for common spacing classes */
+.my-4 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.my-2 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Style headings to stand out */
+h1, h2, h3 {
+    font-weight: 700;
+    color: red; /* Slightly brighter text for headings */
+}
+
+/* Style dropdowns to have a consistent look with dark background */
+.Select-control, .Select-menu-outer {
+    background-color: #212529 !important; /* Dark background for dropdowns */
+    border: 1px solid #343a40 !important;
+    color: #ffffff !important;
+}
+
+/* Adjust dropdown input text color */
+.Select-control .Select-placeholder,
+.Select-control .Select--single > .Select-control .Select-value,
+.Select-input input {
+    color: #ffffff !important;
+}
+
+/* Hover effect for dropdown options */
+.Select-option.is-focused {
+    background-color: #343a40 !important;
+    color: #ffffff !important;
+}
+
+/* Selected option styling */
+.Select-option.is-selected {
+    background-color: #495057 !important;
+    color: #ffffff !important;
+}
+
+/* Improve spacing around dropdowns */
+.dccDropdown {
+    margin-bottom: 1rem;
+}
+
+/* Adjust the font size of labels and text elements */
+label {
+    font-size: 1.1rem;
+    color: #f8f9fa;
+}
+
+/* Make charts take full width on mobile screens */
+@media (max-width: 768px) {
+    .dbc-col {
+        width: 100% !important;
+    }
+}
+
+/* Additional tweaks (optional):
+   - Adjust link colors, button styles, scrollbar, etc. as needed.
+*/
